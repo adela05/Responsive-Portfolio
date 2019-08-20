@@ -73,12 +73,13 @@ img {
 .heading {
 	font-size: 30px;
 	font-weight: bold;
+	color: cornflowerblue;
 	margin: 20px 10px 20px 25px;
 }
 p {
 	flex-wrap: wrap;
 	margin-top: 20px;
-	font-size: 18px;
+	font-size: 16px;
 	padding-right: 10px;
 	padding-left: 10px;
 	line-height: 1.6;
@@ -290,44 +291,39 @@ footer {
 	}
 }
 @media only screen and (max-width: 640px) {
-	.item1 {
+	/* .item1 {
 		background-color: none;
 		width: 0;
 		height: 0;
 		/* display: none; */
 
-		margin-bottom: 0;
-	}
-	.headcontainer {
-		/* margin: auto;
-		width: 960px;
-		overflow: hidden;
-		justify-content: space-between; */
-	}
-	#item2 {
+	/* margin-bottom: 0;
+	} */
+
+	/* #item2 {
 		background-color: lightgrey;
 		width: 100%;
 		height: auto;
-	}
+	} */
 
-	/* container for index page/height: 1270px;  */
 	.container2 {
-		width: 569px;
-		height: 1270px;
-		margin-left: 35px;
-		clear: both;
+		width: 500px;
+		height: auto;
+		margin-bottom: 36px;
 	}
 	/* container for contact page */
-	.container {
+	.container4 {
 		width: 569px;
-		height: 680px;
-		margin-left: 35px;
+		height: auto;
+		margin-bottom: 36px;
+		/* height: 680px;
+		margin-left: 35px; */
 	}
 	#img1 {
-		width: 480px;
+		width: 440px;
 		height: auto;
 		margin-right: 3%;
-		margin-left: 7%;
+		margin-left: 6%;
 	}
 	/* container for portfolio page */
 	.container3 {
