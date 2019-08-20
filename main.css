@@ -13,14 +13,17 @@ body {
 	height: 60px;
 	display: flex;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 #list {
-	margin-right: 70px;
-	padding: 20px;
 	word-spacing: 10px;
+	display: flex;
+	margin-right: 200px;
+	padding: 20px;
 }
 
 a {
+	padding: 5px;
 	text-decoration: none;
 	color: black;
 }
@@ -31,22 +34,23 @@ a {
 	font-weight: bolder;
 	float: left;
 	text-align: center;
-	padding: 15px;
 	background-color: gray;
-	/* padding-top: 12px; */
-	margin-left: 260px;
+}
+.titleHead {
+	margin-left: 205px;
+	padding: 15px;
 	clear: both;
 }
 
 img {
-	width: 200px;
+	width: 180px;
 	height: auto;
 	float: left;
 	border-radius: 8px;
 	margin-top: 20px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	margin-left: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
 }
 .headcontainer {
 	margin: auto;
@@ -58,10 +62,12 @@ img {
 	background-color: #fff;
 	width: 960px;
 	height: auto;
-	margin-left: 302px;
+	margin: auto;
+	clear: both;
+	/* margin-left: 302px;
 	margin-top: 45px;
 	margin-right: 1262px;
-	margin-bottom: 176px;
+	margin-bottom: 176px; */
 	overflow: hidden;
 }
 .heading {
@@ -72,10 +78,18 @@ img {
 p {
 	flex-wrap: wrap;
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 18px;
 	padding-right: 10px;
 	padding-left: 10px;
 	line-height: 1.6;
+}
+#line1 {
+	margin-left: 10px;
+	text-indent: 35px;
+}
+#line2 {
+	margin-right: 10px;
+	text-indent: 35px;
 }
 
 #line3 {
@@ -84,6 +98,7 @@ p {
 	padding-left: 10px;
 	margin-top: 5px;
 	margin-bottom: 15px;
+	text-indent: 35px;
 }
 /* end of About page */
 
@@ -126,15 +141,51 @@ input[type=submit] {
 }
 /* End of Contact page */
 .flex-container {
-	width: 700px;
+	width: 500px;
+	height: auto;
 	display: flex;
-	/* flex-direction: column; */
 	flex-flow: wrap;
-	margin: 10px;
-	padding: 10px;
+	clear: both;
+
+	/* padding: 10px;
 	position: relative;
-	text-align: center;
+	text-align: center; */
 }
+.photoContain {
+	background-color: cornflowerblue;
+	width: 180px;
+	height: 35px;
+}
+.banner {
+	position: absolute;
+	/* float: left; */
+	margin-top: 90px;
+	margin-left: 15px;
+	text-align: center;
+	padding-top: 8px;
+}
+.banner3 {
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 15px;
+	text-align: center;
+	padding-top: 8px;
+}
+.banner4 {
+	position: absolute;
+	margin-top: 14.5%;
+	margin-left: 15px;
+	text-align: center;
+	padding-top: 8px;
+}
+.banner5 {
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 15px;
+	text-align: center;
+	padding-top: 8px;
+}
+/* End of Portfolio */
 
 footer {
 	position: fixed;
@@ -148,8 +199,55 @@ footer {
 	font-size: 10px;
 }
 /* Media Query */
+@media only screen and (max-width: 980px) {
+	.container {
+		float: left;
+		width: 650px;
+		height: 770px;
+		margin-left: 50px;
+	}
+	#line2 {
+		float: left;
+		margin-top: 5px;
+	}
+	img {
+		width: 200px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.titleHead {
+		margin-left: 7.5%;
+	}
+	#list {
+		margin-right: 2%;
+	}
+	textarea {
+		height: 300px;
+	}
+	.photoContain {
+		width: 20.5%;
+	}
+	.banner {
+		margin-top: 10.7%;
+		margin-left: 2%;
+	}
+	.banner3 {
+		margin-top: 28%;
+		margin-left: 2%;
+	}
+	.banner4 {
+		margin-top: 23%;
+		margin-left: 2%;
+	}
+	.banner5 {
+		margin-top: 13%;
+		margin-left: 2%;
+	}
+}
+@media only screen and (max-width: 768px) {
+}
 @media only screen and (max-width: 640px) {
-	.item1 {
+	/* .item1 {
 		height: auto;
 	}
 	.headcontainer {
@@ -167,9 +265,5 @@ footer {
 		font-size: 15px;
 		text-align: center;
 		margin-right: 50px;
-	}
-}
-@media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 980px) {
+	} */
 }
