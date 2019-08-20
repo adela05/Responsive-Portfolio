@@ -210,6 +210,9 @@ footer {
 		float: left;
 		margin-top: 5px;
 	}
+	#img1 {
+		width: 190px;
+	}
 	img {
 		width: 200px;
 		margin-right: 20px;
@@ -245,25 +248,114 @@ footer {
 	}
 }
 @media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 640px) {
-	/* .item1 {
-		height: auto;
+	.container {
+		width: 700px;
+		height: 795px;
+		margin-left: 35px;
+		clear: both;
 	}
-	.headcontainer {
-		position: static;
-		text-align: center;
-		float: left;
+	#img1 {
+		width: 280px;
 	}
-	#title {
-		font-size: 20px;
-		margin-left: 100px;
-		margin-bottom: 40px;
-		width: 100%;
+	img {
+		width: 210px;
+	}
+	#line2 {
+		float: none;
+	}
+	.titleHead {
+		margin-left: 7%;
 	}
 	#list {
-		font-size: 15px;
-		text-align: center;
-		margin-right: 50px;
-	} */
+		margin-right: 3%;
+	}
+	.photoContain {
+		width: 27.4%;
+	}
+	.banner {
+		margin-top: 15%;
+		margin-left: 2.6%;
+	}
+	.banner3 {
+		margin-top: 38%;
+		margin-left: 2.6%;
+	}
+	.banner4 {
+		margin-top: 30.6%;
+		margin-left: 2.6%;
+	}
+	.banner5 {
+		margin-top: 17%;
+		margin-left: 2.6%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.item1 {
+		background-color: none;
+		width: 0;
+		height: 0;
+		/* display: none; */
+
+		margin-bottom: 0;
+	}
+	.headcontainer {
+		/* margin: auto;
+		width: 960px;
+		overflow: hidden;
+		justify-content: space-between; */
+	}
+	#item2 {
+		background-color: lightgrey;
+		width: 100%;
+		height: auto;
+	}
+
+	/* container for index page/height: 1270px;  */
+	.container2 {
+		width: 569px;
+		height: 1270px;
+		margin-left: 35px;
+		clear: both;
+	}
+	/* container for contact page */
+	.container {
+		width: 569px;
+		height: 680px;
+		margin-left: 35px;
+	}
+	#img1 {
+		width: 480px;
+		height: auto;
+		margin-right: 3%;
+		margin-left: 7%;
+	}
+	/* container for portfolio page */
+	.container3 {
+		width: 480px;
+		height: 1650px;
+		margin-left: 80px;
+	}
+	img {
+		width: 290px;
+		margin-left: 25%;
+	}
+	.photoContain {
+		width: 45.3%;
+	}
+	.banner {
+		margin-top: 25.5%;
+		margin-left: 12.2%;
+	}
+	.banner3 {
+		margin-top: 63.2%;
+		margin-left: 12.2%;
+	}
+	.banner4 {
+		margin-top: 52.3%;
+		margin-left: 12.2%;
+	}
+	.banner5 {
+		margin-top: 29.2%;
+		margin-left: 12.2%;
+	}
 }
